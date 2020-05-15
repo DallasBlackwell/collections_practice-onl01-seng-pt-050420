@@ -12,11 +12,7 @@ def sort_array_char_count(arrays)
 end
 
 def swap_elements(array)
-<<<<<<< HEAD
-    first_variable = array [1]
-    second_variable = array [2]
-  array [1] = second_variable
-  array [2] = first_variable
+  array[1], array[2] = array[2], array[1]
   array
 end
 
@@ -52,11 +48,3 @@ def add_s(array)
     end
   end
 end
-=======
-  first_variable = array[1]
-  second_variable = array[2]
-  array [1] = second_variable
-  array [2] = first_variable
-  end
-return array
->>>>>>> 5f17e119a4cdb4252047201d740413f777af48a6
